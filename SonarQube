@@ -1,0 +1,33 @@
+#To install SonarQube on Windows, you can follow these steps:
+
+1. Install Java:
+SonarQube requires Java to run. 
+Ensure you have Java Development Kit (JDK) 11 or a later version installed on your Windows 10 system. 
+You can download JDK from the official Oracle website (https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) and follow the installation instructions.
+
+2. Download SonarQube:
+Visit the official SonarQube website (https://www.sonarqube.org/downloads/) and download the latest version of SonarQube Community Edition for Windows.
+
+3. Extract SonarQube:
+Once the download is complete, extract the SonarQube ZIP archive to your desired installation directory.
+For example, extract it to C:\sonarqube.
+
+4. Configure SonarQube:
+   - Open the C:\sonarqube\conf directory.
+   - Rename the file sonar.properties to sonar.properties.txt.
+   - Open the sonar.properties.txt file in a text editor.
+   - Customize the properties as needed, such as the database configuration and server settings.
+   - Save the file as sonar.properties (remove the .txt extension).
+
+5. Run SonarQube:
+   - Open a command prompt as an administrator.
+   - Navigate to the C:\sonarqube\bin\windows-x86-64 directory.
+   - Execute the command StartSonar.bat. This will start the SonarQube server.
+   - Wait until you see the message "SonarQube is up" in the command prompt.
+
+6. Access SonarQube:
+   - Open a web browser and enter http://localhost:9000 in the address bar.
+   - SonarQube's web interface should now be accessible.
+
+#That's it! You have successfully installed SonarQube on your Windows 10 system.
+#You can now configure sonarqube
