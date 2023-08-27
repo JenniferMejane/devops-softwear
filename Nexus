@@ -1,0 +1,35 @@
+ #Steps to install Nexus Repository Manager on Windows:
+
+1. Download Nexus Repository Manager:
+Visit the Sonatype website (https://www.sonatype.com/nexus/repository-oss) and download 
+the latest version of Nexus Repository Manager OSS (Open Source Edition) for Windows.
+
+2. Extract the Nexus Archive:
+Once the download is complete, extract the contents of the Nexus ZIP archive to your desired installation directory.
+For example, you can extract it to C:\nexus.
+
+3. Configure Nexus JVM Parameters (optional):
+Open the C:\nexus\bin\nexus.vmoptions file in a text editor. Adjust the JVM memory settings if needed.
+For example, you can increase the maximum heap size -Xmx value if you have significant available memory.
+
+4. Configure Nexus Service (optional):
+To run Nexus as a Windows service, open a command prompt as an administrator and navigate to the C:\nexus\bin directory. 
+Execute the following command:
+   ```
+   nexus.exe /install
+   ```
+
+5. Start Nexus Repository Manager:
+   - Open a command prompt as an administrator.
+   - Navigate to the C:\nexus\bin directory.
+   - Execute the following command to start Nexus:
+     ```
+     nexus.exe /run
+     ```
+
+6. Access Nexus Web Interface:
+   - Open a web browser and enter http://localhost:8081 in the address bar.
+   - Nexus Repository Manager's web interface should now be accessible.
+
+7. Configure Nexus:
+   - In the web interface, follow the instructions to set up the initial Nexus configuration, including the admin credentials and repository settings
