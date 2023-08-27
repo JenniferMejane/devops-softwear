@@ -1,0 +1,35 @@
+#installing apache malven on windows
+
+1. Download Apache Maven:
+Visit the official Apache Maven website (https://maven.apache.org/download.cgi) and download the latest Maven Binary ZIP archive.
+
+2. Extract Maven Archive:
+Once the download is complete, extract the contents of the Maven archive to your desired installation directory. For example, you can extract it to C:\maven.
+
+3. Set Environment Variables:
+   - Open the System Properties dialog:
+      - Right-click on the "This PC" or "My Computer" icon and select "Properties".
+      - Go to "Advanced system settings".
+      - Click the "Environment Variables" button.
+   - Edit the "Path" variable:
+      - Under the "System variables" section, locate the "Path" variable and select it.
+      - Click the "Edit" button.
+      - Click the "New" button and add the following entry:
+        ```bash
+        C:\maven\bin
+        ```
+      - Click "OK" to save the changes.
+   - Add a new "MAVEN_HOME" variable:
+      - Click the "New" button under the "System variables" section.
+      - Set the "Variable name" to MAVEN_HOME.
+      - Set the "Variable value" to the installation directory of Maven (C:\maven).
+      - Click "OK" to save the changes.
+
+4. Verify Maven Installation:
+   - Open a new command prompt to ensure the environment variable changes take effect.
+   - Run the following command to verify Maven installation:
+     ```bash
+     mvn -version
+     ```
+   #you should see the version of maven you installed
+
