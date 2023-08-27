@@ -1,0 +1,25 @@
+#To use GitHub on Windows 10, you don't need to install any specific software since GitHub is an online platform. 
+#However, you might want to install a Git client to interact with GitHub repositories from your local machine.
+#Here's how you can set up Git on Windows 10:
+
+1. Download Git: Visit the official Git website (https://git-scm.com/downloads) and download the latest version of Git for Windows.
+
+2. Run the Installer: Once the download is complete, run the Git installer executable (.exe file) and follow the on-screen instructions.
+
+3. Configure Installation Options: During the installation, you can choose options such as the installation location, components to install, and default text editor. The default options should work well for most users, so you can simply proceed through the installation process.
+
+4. Adjust PATH environment: On the "Adjusting your PATH environment" screen of the installer, select the option "Use Git from the Windows Command Prompt" to make Git accessible from the command line. You can choose other options based on your preference.
+
+5. Configure Line Endings: On the "Configure the line ending conversions" screen, you can choose your preferred line ending conversion settings. The default option "Checkout Windows-style, commit Unix-style line endings" usually works well.
+
+6. Configure Terminal Emulator: On the "Configuring the terminal emulator to use with Git Bash" screen, you can choose between the default option "Use MinTTY" or another emulator of your choice.
+
+7. Complete the Installation: After selecting your preferred options, continue with the installation. Once the installation is complete, click "Finish" to exit the installer.
+
+8. Verify Git Installation: To verify if Git is installed correctly, open a command prompt or Git Bash terminal and run the following command:
+   ```
+   git --version
+   ```
+  # You should see the Git version information if the installation was successful.
+
+ #You can sign in to GitHub (https://github.com) using your account credentials.
